@@ -1,14 +1,10 @@
-# Exp.No:40  
-## APPLICATIONS OF QUEUE
+# Ex.No:8A APPLICATIONS OF QUEUE
 
----
-
-### AIM  
+## AIM  
 To write a Python program to implement CPU Process Scheduling using a queue.
 
----
 
-### ALGORITHM  
+## ALGORITHM  
 
 1. Start the program.  
 2. Define the function `CalculateWaitingTime(at, bt, N)`.  
@@ -27,11 +23,14 @@ To write a Python program to implement CPU Process Scheduling using a queue.
 13. Call `CalculateWaitingTime()` with `at`, `bt`, and `N`.  
 14. End the program.
 
----
-
-### PROGRAM  
+## PROGRAM  
 
 ```
+# Python3 program for implementation
+# of FCFS scheduling
+
+# Function to find the waiting
+# time for all processes
 def findWaitingTime(processes, n,
 					bt, wt):
 
@@ -107,11 +106,13 @@ if __name__ =="__main__":
 	burst_time = [t0,t1,t2]
 
 	findavgTime(processes, n, burst_time)
+
 ```
 
-### OUTPUT
+## OUTPUT
+![Screenshot 2025-05-19 115136](https://github.com/user-attachments/assets/59b3f6cd-5012-43d4-9cf2-43cc4fcc18cc)
 
-![Screenshot 2025-05-05 003001](https://github.com/user-attachments/assets/2f3beb48-5ab5-4f75-8299-2728ceb32063)
 
-### RESULT
-Thus, the python program to implement CPU Process Scheduling using a queue has been executed and verified successfully.
+## RESULT
+Thus a Python program to implement CPU Process Scheduling using a queue has been successfully implemented.
+
